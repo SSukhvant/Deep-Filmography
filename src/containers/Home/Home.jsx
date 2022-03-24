@@ -5,26 +5,16 @@ import './Home.scss';
 
 const Home = () => {
   return (
-    <div className='app__home app__flex'>
+    <div className='app__home'>
       <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
-      className="app__header-info"
+      className="app__home-info"
       >
-      <div className="app__header-badge">
-      <div className="badge-cmp app__bgwhite app__flex">
-        <span>👋</span>
-        <div className='badge-html' style={{ marginLeft: 20 }}>
-          <p className="p-text">Hello, I'm</p>
-          <h1 className="head-text">Sukhvant</h1>
-        </div>
-      </div>
-
-      <div className="tag-cmp app__bgviolet text-white app__flex">
-        <p>WEB DEVELOPER</p>
-        <p>FREELANCER</p>
-      </div>
-    </div>
+          <p className="p-text">For Website And Video Editing</p>
+          <h1 className="head-text">Videographer's <br/>Portfolio</h1>
+          <h1 className="head-text"></h1>
+          <button className='app__home-btn'><span>KNOW MORE</span></button>
       </motion.div>
     </div>
   )
