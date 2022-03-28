@@ -48,16 +48,17 @@
 
         flex-direction: column;
 
-        div {
-            width: 5px;
-            height: 5px;
-            background: transparent;
-            border-radius: 50%;
+        // div {
+        //     width: 5px;
+        //     height: 5px;
+        //     background: transparent;
+        //     border-radius: 50%;
 
-            margin-bottom: 5px;
-        }
+        //     margin-bottom: 5px;
+        // }
 
         a{
+            display: inline-block;
             color: var(--white-color);
             text-decoration: none;
             flex-direction: column;
@@ -65,22 +66,20 @@
             text-transform: uppercase;
             font-weight: 500;
 
-            transition: all 0.3s ease-in-out;
+            // transition: all 0.3s ease-in-out;
 
-            span {
-               font-size: 1.1em;
-               padding-bottom: 0;
+            &:after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 1px;
+                background: var(--secondary-color);
+                transition: width .4s ease-in;
             }
 
-            &:hover {
-                color: var(--white-color);
+            &:hover::after {
+                width: 100%;
             }
-        }
-
-        &:hover {
-            div {
-                background: var(--white-color);
-                }
         }
     }
 

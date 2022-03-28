@@ -1,0 +1,25 @@
+.app__about{
+    max-width: 1320px;
+    margin: 0 auto;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__about-intro {
+    flex: 1;
+    background: var(--primary-color);
+}
+
+.app__about-services {
+    flex: 1;
+    background: var(--para-color);
+    display: flex;
+    flex-flow: row wrap;
+
+    div {
+        flex: 1 0 50%
+    }
+}
