@@ -13,7 +13,7 @@ const Home = () => {
       >
           <p className="p-text">For Website And Video Editing</p>
           <h1 className="head-text">Videographer's <br/>Portfolio</h1>
-          <h1 className="head-text"></h1>
+          {/*<h1 className="head-text"></h1>*/}
           <button className='app__home-btn'><span>KNOW MORE</span></button>
       </motion.div>
     </div>

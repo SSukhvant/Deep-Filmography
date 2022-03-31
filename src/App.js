@@ -8,7 +8,7 @@ const App = () => {
     <div className='app'>
       <Navbar/>
       <Home/>
-      <About/>
+      <About name='app__whitebg'/>
       <Work/>
       <Blog/>
       <Footer/>
