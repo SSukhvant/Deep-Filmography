@@ -1,0 +1,36 @@
+.app__gallery {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.app__gallery-pictures {
+    display: flex;
+    text-align: center;
+    flex-flow: row wrap;
+    
+    .app__gallery-1{
+        flex: 1;
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+
+    .app__gallery-2{
+        flex: 1;
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+
+    .app__gallery-3{
+        flex: 1;
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+}
+
+.app__gallery-picture {
+    // padding: 0;
+}

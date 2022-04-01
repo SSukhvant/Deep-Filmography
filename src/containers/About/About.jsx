@@ -33,7 +33,7 @@ const services = [
 
 const About = () => {
   return (
-    <div className='app__about'>
+    <div className="app__about">
       <div className='app__about-intro'>
        <h5>Our Services</h5>
        <h2>What We do?</h2>
@@ -74,5 +74,4 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, 'app__about'),
   'about',
-  'app__blackbg',
 );
